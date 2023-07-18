@@ -4,7 +4,7 @@ This is mainly intended to be educational, not functional. You should really be 
 Speaking of educational, check out the blog posts!
 
 # blog posts
-- This is part of a [blog post](https://kjabon.github.io/blog/2023/VPGJAX/) explaining the implementation of VPG.
+- This repo is part of a [blog post](https://kjabon.github.io/blog/2023/VPGJAX/) explaining the implementation of VPG.
 - That post follows [two](https://kjabon.github.io/blog/2023/VPG/) [more](https://kjabon.github.io/blog/2023/VPG2/) which explain the theory behind VPG.
 - Those posts follow [another](https://kjabon.github.io/blog/2023/RL/) on the reinforcement learning (RL) problem.
 
