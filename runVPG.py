@@ -27,6 +27,8 @@ discGymEnvs = ["CartPole-v4", "FrozenLake-v1"]
 gymEnv = contGymEnvs[3]
 # gymEnv = discGymEnvs[1]
 
+USERNAME='your_username_here'
+
 runDistributed = True
 envName = 'gym:'+gymEnv
 seed=0
@@ -83,7 +85,7 @@ def build_experiment_config():
 
     checkpointingConfig = configClass.CheckpointingConfig()
     checkpointingConfig.max_to_keep = 5
-    checkpointingConfig.directory = '/home/kenny/acme/' + task + '/VPG'
+    checkpointingConfig.directory = '/home/{}/acme/'.format(USERNAME) + task + '/VPG'
     checkpointingConfig.time_delta_minutes = 10
     checkpointingConfig.add_uid = False
 
